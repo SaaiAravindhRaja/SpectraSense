@@ -1,0 +1,5 @@
+{
+  "chosen": "ridge",
+  "ridge": "/Users/saaiaravindhraja/Desktop/SpectraSense/weights/feature_meta_ridge.npz",
+  "keras": "/Users/saaiaravindhraja/Desktop/SpectraSense/weights/keras_fusion.keras"
+}

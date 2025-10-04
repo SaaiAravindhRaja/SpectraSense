@@ -1,0 +1,16 @@
+{
+  "model_type": "Enhanced Ensemble",
+  "feature_count": 50,
+  "training_samples": 19,
+  "cv_mae_mean": 2.946511056666694,
+  "cv_mae_std": 0.8708310239118247,
+  "ensemble_weights": {
+    "ridge": 0.3144245570523015,
+    "elastic": 0.2705555620887371,
+    "rf": 0.23967759001737596,
+    "gbm": 0.17534229084158542
+  },
+  "target_mean": 12.231578947368423,
+  "target_std": 3.9653834528299834,
+  "version": "2.0.0"
+}
