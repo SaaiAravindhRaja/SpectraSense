@@ -1,9 +1,7 @@
-# 🩸 SpectraSense AI
-### *Revolutionary Non-Invasive Hemoglobin Estimation Through Computer Vision*
+# 🔬 SpectraSense AI
+### *Non-Invasive Hemoglobin Estimation Through Computer Vision*
 
 <div align="center">
-
-![SpectraSense Banner](https://img.shields.io/badge/SpectraSense-AI%20Powered%20Healthcare-FF6B6B?style=for-the-badge&logo=heart&logoColor=white)
 
 [![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![React](https://img.shields.io/badge/React-18+-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org)
@@ -14,60 +12,41 @@
 [![Clinical Grade](https://img.shields.io/badge/Clinical%20Grade-Validation-blue?style=for-the-badge)](https://github.com)
 [![Real Time](https://img.shields.io/badge/Real%20Time-Monitoring-orange?style=for-the-badge)](https://github.com)
 
-*🏆 **Hackathon Winner** | 🔬 **Clinical-Grade Accuracy** | ⚡ **Real-Time Processing** | 🛡️ **Comprehensive Validation***
+*🔬 **Research Prototype** | ⚡ **Real-Time Processing** | 🛡️ **Comprehensive Validation***
 
 </div>
 
 ---
 
-## 🌟 **Revolutionary Healthcare Innovation**
+## 🌟 **Overview**
 
-SpectraSense AI represents a **paradigm shift** in medical diagnostics, transforming smartphone cameras into powerful clinical instruments. Our cutting-edge computer vision system analyzes lip coloration to provide **instant, accurate hemoglobin estimations** without needles, blood draws, or laboratory visits.
+SpectraSense AI is a computer vision system that analyzes lip coloration to estimate hemoglobin levels. This research prototype demonstrates the potential for smartphone-based medical screening using advanced machine learning techniques.
 
-### 🎯 **Clinical Impact**
-- **3.14 g/dL Mean Absolute Error** - Exceeding clinical accuracy standards
-- **Sub-2 Second Analysis** - Instant results for immediate clinical decisions  
-- **Comprehensive Fairness** - Validated across diverse demographic groups
-- **Production Ready** - Clinical-grade validation and monitoring systems
+### 🎯 **Key Features**
+- **3.14 g/dL Mean Absolute Error** - Research-grade accuracy
+- **Sub-2 Second Analysis** - Fast processing pipeline
+- **Fairness Validation** - Tested across demographic groups
+- **Comprehensive Monitoring** - Production-ready validation framework
 
----
+## ✨ **Technical Features**
 
-## ✨ **Key Features**
-
-<table>
-<tr>
-<td width="50%">
-
-### 🧠 **AI-Powered Analysis**
+### 🧠 **AI System**
 - **9-Algorithm Ensemble** with dynamic weighting
-- **100+ Advanced Features** from lip imagery
-- **Uncertainty Quantification** for clinical confidence
+- **100+ Advanced Features** extracted from lip imagery
+- **Uncertainty Quantification** for prediction confidence
 - **Real-Time Calibration** and bias correction
 
-### 🎨 **Stunning Interface**
-- **Glassmorphism Design** with modern aesthetics
-- **Drag & Drop Upload** with instant preview
-- **Real-Time Progress** indicators and animations
-- **Professional Medical** reporting and visualization
-
-</td>
-<td width="50%">
-
-### 🔬 **Clinical Validation**
-- **Comprehensive Accuracy** validation (MAE ≤ 0.8 g/dL target)
+### 🔬 **Validation Framework**
+- **Accuracy Validation** (MAE ≤ 0.8 g/dL target)
 - **Fairness Evaluation** across demographic groups (≤15% variation)
 - **Performance Optimization** (≤2s inference, ≤50MB model)
 - **Robustness Testing** across lighting and device conditions
 
-### 🛡️ **Production Grade**
-- **Real-Time Monitoring** with performance tracking
-- **Statistical Significance** testing and validation
-- **Deployment Readiness** assessment and reporting
-- **Quality Assurance** with comprehensive metrics
-
-</td>
-</tr>
-</table>
+### 🎨 **User Interface**
+- **Modern React Interface** with glassmorphism design
+- **Drag & Drop Upload** with instant preview
+- **Real-Time Analysis** with progress indicators
+- **Professional Reporting** with detailed metrics
 
 ---
 
@@ -283,64 +262,21 @@ docker-compose up -d
 
 ```
 SpectraSense/
-├── 🎨 ui/                          # React frontend
-│   ├── src/App.jsx                 # Main application
-│   └── dist/                       # Built assets
-├── 🧠 code/                        # AI & validation systems
-│   ├── ultimate_model.py           # Core AI ensemble
-│   ├── comprehensive_validation.py # Accuracy validation
-│   ├── fairness_evaluation.py      # Bias detection
-│   ├── performance_optimizer.py    # Performance optimization
-│   ├── robustness_tester.py       # Robustness testing
-│   └── final_validation_report.py  # Report generation
-├── ⚖️ weights/                     # Trained model weights
-│   ├── ultimate_ensemble.pkl       # Main ensemble model
-│   ├── ultimate_extractor.pkl      # Feature extractor
-│   └── ultimate_metadata.json      # Model metadata
-├── 📊 1. Randomised Files/         # Test dataset
-├── 🚀 production_app.py            # Production server
-└── 📋 requirements.txt             # Dependencies
+├── ui/                          # React frontend
+├── code/                        # AI & validation systems
+├── weights/                     # Trained model weights
+├── production_app.py            # Production server
+└── requirements.txt             # Dependencies
 ```
 
----
+## 🔬 **Methodology**
 
-## 🔬 **Scientific Foundation**
-
-### **📚 Research Basis**
-Our approach builds on established research in:
-- **Computer Vision** for medical imaging
-- **Ensemble Learning** for robust predictions
-- **Fairness in AI** for equitable healthcare
-- **Clinical Validation** methodologies
-
-### **🧪 Methodology**
-- **Feature Engineering**: 100+ advanced color, texture, and morphological features
+- **Feature Engineering**: 100+ color, texture, and morphological features
 - **Ensemble Learning**: 9 complementary algorithms with dynamic weighting
-- **Uncertainty Quantification**: Bayesian and ensemble-based confidence estimation
-- **Bias Mitigation**: Comprehensive fairness constraints and monitoring
+- **Uncertainty Quantification**: Ensemble-based confidence estimation
+- **Validation Protocol**: Cross-validation with bootstrap confidence intervals
 
-### **📊 Validation Protocol**
-- **Cross-Validation**: 5-fold stratified validation
-- **Bootstrap Sampling**: 1000 iterations for confidence intervals
-- **Statistical Testing**: Significance testing for group differences
-- **Clinical Standards**: FDA-inspired accuracy and fairness targets
 
----
-
-## 🏆 **Awards & Recognition**
-
-<div align="center">
-
-### **🥇 Hackathon Winner**
-*Genesis1v1 DSA Case Competition*
-
-**🎯 Key Achievements:**
-- **Clinical-Grade Accuracy** with 3.14 g/dL MAE
-- **Comprehensive Validation** framework
-- **Production-Ready** deployment
-- **Fairness & Bias** mitigation
-
-</div>
 
 ---
 
@@ -368,7 +304,7 @@ We welcome contributions from the healthcare AI community!
 This project is licensed under the **MIT License** - see [LICENSE](LICENSE) for details.
 
 ### **🏥 Medical Disclaimer**
-> **IMPORTANT**: SpectraSense AI is a research prototype and **NOT approved for clinical diagnosis**. Always consult healthcare professionals for medical decisions. This tool is intended for research and educational purposes only.
+> **IMPORTANT**: SpectraSense AI is a research prototype and **NOT approved for clinical diagnosis**. This tool is intended for research and educational purposes only. Always consult healthcare professionals for medical decisions.
 
 ### **🛡️ Privacy & Security**
 - **No Data Storage**: Images processed locally, not stored
