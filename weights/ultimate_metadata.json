@@ -1,0 +1,39 @@
+{
+  "model_type": "Ultimate Hackathon Winner",
+  "algorithms": [
+    "ridge_strong",
+    "ridge_medium",
+    "ridge_weak",
+    "elastic_balanced",
+    "elastic_l1",
+    "rf_deep",
+    "rf_wide",
+    "gbm_aggressive",
+    "gbm_conservative"
+  ],
+  "feature_count": 100,
+  "training_samples": 16,
+  "mae": 3.1374120805977634,
+  "mae_std": 1.4225075640269114,
+  "weights": {
+    "ridge_strong": 0.11587912381949962,
+    "ridge_medium": 0.11587445129426452,
+    "ridge_weak": 0.11594994793800878,
+    "elastic_balanced": 0.09595957460637479,
+    "elastic_l1": 0.09599209989615935,
+    "rf_deep": 0.11386028687910331,
+    "rf_wide": 0.11494735895757592,
+    "gbm_aggressive": 0.11299421340536661,
+    "gbm_conservative": 0.11854294320364694
+  },
+  "target_stats": {
+    "mean": 12.45625,
+    "std": 4.151501046308431,
+    "range": [
+      4.1,
+      17.3
+    ]
+  },
+  "version": "4.0.0-ultimate",
+  "grade": "GOOD"
+}
