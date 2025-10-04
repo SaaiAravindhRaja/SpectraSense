@@ -1,0 +1,32 @@
+{
+  "model_type": "Hackathon-Winning Ensemble",
+  "algorithms": [
+    "ridge",
+    "elastic",
+    "bayesian",
+    "rf",
+    "extra_trees",
+    "gbm"
+  ],
+  "feature_count": 180,
+  "training_samples": 16,
+  "cv_mae_mean": 3.7774230413253784,
+  "cv_mae_std": 1.1202661731723902,
+  "cv_r2_mean": -1.0669963516913892,
+  "model_weights": {
+    "ridge": 0.16646584895549463,
+    "elastic": 0.16646584895549463,
+    "bayesian": 0.16646584895549463,
+    "rf": 0.16738448778517573,
+    "extra_trees": 0.16646585310139744,
+    "gbm": 0.16675211224694297
+  },
+  "target_stats": {
+    "mean": 12.45625,
+    "std": 4.151501046308431,
+    "min": 4.1,
+    "max": 17.3
+  },
+  "version": "3.0.0-winner",
+  "performance_grade": "GOOD"
+}
