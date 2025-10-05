@@ -2,7 +2,10 @@ services:
   - type: web
     name: spectrasense-ai
     runtime: python
-    buildCommand: pip install -r requirements.txt
+    # Upgrade packaging tools and prefer binary wheels to speed up installs
+    buildCommand: |
+      python -m pip install --upgrade pip setuptools wheel
+      pip install --prefer-binary -r requirements.txt
     startCommand: gunicorn app:app
     envVars:
       - key: PYTHON_VERSION
