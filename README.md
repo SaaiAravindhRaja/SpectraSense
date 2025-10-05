@@ -1,56 +1,10 @@
 # 🔬 SpectraSense AI
 ### *Non-Invasive Hemoglobin Estimation Through Computer Vision*
-
-<div align="center">
-
-[![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
-[![React](https://img.shields.io/badge/React-18+-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org)
-[![Flask](https://img.shields.io/badge/Flask-2.0+-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com)
-[![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3+-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org)
-
-[![Accuracy](https://img.shields.io/badge/MAE-3.14%20g%2FdL-success?style=for-the-badge)](https://github.com)
-[![Clinical Grade](https://img.shields.io/badge/Clinical%20Grade-Validation-blue?style=for-the-badge)](https://github.com)
-[![Real Time](https://img.shields.io/badge/Real%20Time-Monitoring-orange?style=for-the-badge)](https://github.com)
-
-*🔬 **Research Prototype** | ⚡ **Real-Time Processing** | 🛡️ **Comprehensive Validation***
-
-</div>
-
 ---
 
 ## 🌟 **Overview**
 
 SpectraSense AI is a computer vision system that analyzes lip coloration to estimate hemoglobin levels. This research prototype demonstrates the potential for smartphone-based medical screening using advanced machine learning techniques.
-
-### 🎯 **Key Features**
-- **3.14 g/dL Mean Absolute Error** - Research-grade accuracy
-- **Sub-2 Second Analysis** - Fast processing pipeline
-- **Fairness Validation** - Tested across demographic groups
-- **Comprehensive Monitoring** - Production-ready validation framework
-
-## ✨ **Technical Features**
-
-### 🧠 **AI System**
-- **9-Algorithm Ensemble** with dynamic weighting
-- **100+ Advanced Features** extracted from lip imagery
-- **Uncertainty Quantification** for prediction confidence
-- **Real-Time Calibration** and bias correction
-
-### 🔬 **Validation Framework**
-- **Accuracy Validation** (MAE ≤ 0.8 g/dL target)
-- **Fairness Evaluation** across demographic groups (≤15% variation)
-- **Performance Optimization** (≤2s inference, ≤50MB model)
-- **Robustness Testing** across lighting and device conditions
-
-### 🎨 **User Interface** (New Clinical Redesign!)
-- **Clinical-Grade Design** - Dark theme with medical cyan accents
-- **Glassmorphism Effects** - Frosted glass panels with smooth animations
-- **Drag & Drop Upload** - Animated dropzone with instant preview
-- **Real-Time Analysis** - Loading states with shimmer effects
-- **Result Cards** - Color-coded metrics with status indicators
-- **Fully Responsive** - Mobile, tablet, and desktop optimized
-- **60fps Performance** - Hardware-accelerated animations
-- **Accessibility First** - WCAG AA compliant with keyboard navigation
 
 ---
 
@@ -81,27 +35,6 @@ python production_app.py
 4. 🏥 **Share** results with healthcare providers
 
 ---
-
-## 🏗️ **Architecture Overview**
-
-<div align="center">
-
-```mermaid
-graph TB
-    A[📱 User Interface] --> B[🔄 Image Processing]
-    B --> C[🧠 Feature Extraction]
-    C --> D[🎯 AI Ensemble]
-    D --> E[📊 Prediction & Uncertainty]
-    E --> F[✅ Validation & Monitoring]
-    F --> G[📋 Clinical Report]
-    
-    H[🔬 Validation Systems] --> F
-    I[⚖️ Fairness Evaluation] --> F
-    J[⚡ Performance Monitoring] --> F
-    K[🛡️ Robustness Testing] --> F
-```
-
-</div>
 
 ### **🧠 Core Components**
 
@@ -207,61 +140,6 @@ GET /health
 GET /api/stats
 ```
 
----
-
-## 🎨 **User Interface Showcase**
-
-<div align="center">
-
-### **✨ Modern Glassmorphism Design**
-
-*Beautiful, intuitive interface designed for healthcare professionals*
-
-**🎯 Key UI Features:**
-- **Drag & Drop Upload** with visual feedback
-- **Real-Time Progress** indicators and animations  
-- **Professional Reports** with clinical formatting
-- **Responsive Design** for all devices
-- **Accessibility Compliant** interface
-
-</div>
-
----
-
-## 🛠️ **Development & Deployment**
-
-### **🔧 Development Setup**
-
-```bash
-# Clone the repository
-git clone https://github.com/your-org/spectrasense-ai.git
-cd spectrasense-ai
-
-# Install Python dependencies
-pip install -r requirements.txt
-
-# Install UI dependencies (optional)
-cd ui && npm install && npm run build
-
-# Start development server
-python production_app.py
-```
-
-### **🚀 Production Deployment**
-
-```bash
-# Production server with validation
-python production_app.py
-
-# Docker deployment (coming soon)
-docker-compose up -d
-
-# Cloud deployment guides available
-# - AWS ECS/Fargate
-# - Google Cloud Run  
-# - Azure Container Instances
-```
-
 ### **📁 Project Structure**
 
 ```
@@ -279,8 +157,6 @@ SpectraSense/
 - **Ensemble Learning**: 9 complementary algorithms with dynamic weighting
 - **Uncertainty Quantification**: Ensemble-based confidence estimation
 - **Validation Protocol**: Cross-validation with bootstrap confidence intervals
-
-
 
 ---
 
@@ -301,11 +177,6 @@ We welcome contributions from the healthcare AI community!
 4. **Submit** a pull request with detailed description
 
 ---
-
-## 📄 **License & Ethics**
-
-### **⚖️ License**
-This project is licensed under the **MIT License** - see [LICENSE](LICENSE) for details.
 
 ### **🏥 Medical Disclaimer**
 > **IMPORTANT**: SpectraSense AI is a research prototype and **NOT approved for clinical diagnosis**. This tool is intended for research and educational purposes only. Always consult healthcare professionals for medical decisions.
