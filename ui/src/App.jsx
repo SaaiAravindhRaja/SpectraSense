@@ -242,7 +242,7 @@ function App(){
             className="mt-8 pt-6 border-t border-border-glass text-center"
           >
             <p className="caption">
-              Research use only • See <a href="/RUNBOOK.md" className="text-accent-primary hover:underline">RUNBOOK</a> and <a href="/model_card.md" className="text-accent-primary hover:underline">model card</a> for details
+              Research purposes only
             </p>
           </motion.footer>
         </GlassCard>
