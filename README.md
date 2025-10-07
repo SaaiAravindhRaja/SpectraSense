@@ -48,36 +48,6 @@ python production_app.py
 
 ---
 
-## 📊 **Performance Metrics**
-
-<div align="center">
-
-### **🎯 Accuracy Performance**
-| Metric | Value | Target | Status |
-|--------|-------|--------|--------|
-| **Mean Absolute Error** | `3.14 g/dL` | `≤ 0.8 g/dL` | 🟡 Good |
-| **R² Score** | `0.85` | `≥ 0.8` | ✅ Excellent |
-| **Confidence Calibration** | `0.04 ECE` | `≤ 0.05` | ✅ Excellent |
-
-### **⚡ Performance Benchmarks**
-| Metric | Value | Target | Status |
-|--------|-------|--------|--------|
-| **Inference Time** | `1.8s` | `≤ 2.0s` | ✅ Excellent |
-| **Model Size** | `45 MB` | `≤ 50 MB` | ✅ Excellent |
-| **Memory Usage** | `1.8 GB` | `≤ 2.0 GB` | ✅ Excellent |
-| **Throughput** | `35 img/min` | `≥ 30 img/min` | ✅ Excellent |
-
-### **⚖️ Fairness & Robustness**
-| Metric | Value | Target | Status |
-|--------|-------|--------|--------|
-| **Demographic Parity** | `12% variation` | `≤ 15%` | ✅ Excellent |
-| **Device Consistency** | `8% variation` | `≤ 10%` | ✅ Excellent |
-| **Robustness Score** | `0.89` | `≥ 0.8` | ✅ Excellent |
-
-</div>
-
----
-
 ### **📁 Project Structure**
 
 ```
@@ -88,13 +58,6 @@ SpectraSense/
 ├── production_app.py            # Production server
 └── requirements.txt             # Dependencies
 ```
-
-## 🔬 **Methodology**
-
-- **Feature Engineering**: 100+ color, texture, and morphological features
-- **Ensemble Learning**: 9 complementary algorithms with dynamic weighting
-- **Uncertainty Quantification**: Ensemble-based confidence estimation
-- **Validation Protocol**: Cross-validation with bootstrap confidence intervals
 
 ---
 
